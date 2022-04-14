@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="'width=device-width  initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car lelo</title>
+    <!-- here we are linking the css with the html -->
+    <link rel="stylesheet" href="project1.css">
+
+    <!-- we are linking it with the google fonts to make the fonts look attractive -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome for cdn (search on google) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- making header class for changing the background color -->
+    <div class="header">
+    <div class="container">
+    
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" width="125px">
+        </div>
+        <nav>
+            <!-- ul is used for creating menu here -->
+            <ul id="menuitems">
+                <!--  ul li for making the the list unordered -->
+                <!-- ankel tag for making the menu clickable -->
+                <!-- target blank is used for opening the link in new tab -->
+                <li><a href="" target="_blank">Home</a></li>
+                <li><a href="">Cars</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+
+            </ul>
+        </nav>
+        <img src="cart.png" height="30px" width="30px">
+        <img src="menu image.webp" class="menu-icon"  onlclick="menutoggle()">
+    </div>  
+    <div class="row">
+        <div class="col-2">
+            <!-- br is used for creating a new line -->
+            <h1>Give your Road Journey <br> A New Experience</h1>
+            <p>A Good car can make you feel great during a road journey</p>
+            <p>SO,What are you waiting for go and buy the car of your dreams in just 1 click</p>
+            <!-- HTML ICON CODE ( search on google) for &#8594  for giving arrow mark to the button-->
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="car photo 1.jpg" alt="">
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- featured categories -->
+    <div class="categories">
+        <div class="small-continers">
+        <div class="row">
+            <div class="col-3">
+                <img src="suv" height="300px" > 
+            </div>
+            <div class="col-3">
+                <img src="hatchback.jpg" height="300px" >
+            </div>
+            <div class="col-3">
+                <img src="sedan.jpg" height="300px" >
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- featured products -->
+    <div class="small-containers">
+        <h1 class="title">Featured models:-</h1> 
+<!--  THIS IS FOR SEDAN MODEL OF CARS -->
+        <h3 class="title">SEDAN MODEL OF CARS</h3>
+        <div class="row">
+            
+            <div class="col-4">
+                <img src="sedanmercedes.webp"  >
+                <a href="" class="btn"> BUY NOW </a>
+                <h4>Sedan mercedes(roaddiver)</h4>
+                 <p> price-:80 lakh <br>includes:-EX-showroom price=70 lakh <br>taxes and duties=8 lakh <br> on road tax= 2 lakh <br>"insuarance price is not included" </p>
+                </div>
+                <div class="col-4">
+                    <img src="sedan.jpg"  >
+                    <a href="" class="btn"> BUY NOW </a>
+                    <h4>Tesla (hypercharge)</h4>
+                     <p> price-:74 lakh <br>includes:-EX-showroom price=68 lakh <br>taxes and duties=4 lakh <br> on road tax= 2 lakh <br>"insuarance price is not included" </p>
+                    </div>
+                    <div class="col-4">
+                        <img src="bmw.jpg"  >
+                        <a href="" class="btn"> BUY NOW </a>
+                        <h4>BMW (Wwheelrise)</h4>
+                         <p> price-:90 lakh <br>includes:-EX-showroom price=78 lakh <br>taxes and duties=10 lakh <br> on road tax= 2 lakh <br>"insuarance price is not included" </p>
+                        </div>
+                        
+<!-- COL-5 IS FOR HATCHBACK MODLE OF  CARS -->
+<h3 class="title">hatchback model of cars:-</h3> 
+<div class="row">
+            
+   
+
+                        <div class="col-5">
+                            
+                            <!-- <h3> HATCHBACK MODEL OF CARS</h3> -->
+                            
+                            <img src="tatahatchback.jpg"  >
+                            <a href="" class="btn"> BUY NOW </a>
+                            <h4>tata altroz</h4>
+                            <p> price-:8 lakh <br>includes:-EX-showroom price=6.5 lakh <br>taxes and duties=1 lakh <br> on road tax= 0.5 lakh <br>"insuarance proce is not included" </p>
+                        </div>
+                        <div class="col-5">
+                            <img src="balenohatchback.jpg"  >
+                            <a href="" class="btn"> BUY NOW </a>
+                            <h4>baleno</h4>
+                            <p> price-:8 lakh <br>includes:-EX-showroom price=6.5 lakh <br>taxes and duties=1 lakh <br> on road tax= 0.5 lakh <br>"insuarance proce is not included" </p>
+                        </div>
+                        
+                        <div class="col-5">
+                            
+                            <img src="audihatchback.jpg"  >
+                            <a href="" class="btn"> BUY NOW </a>
+                            <h4>AUDI A1</h4>
+                            <p> price-:40 lakh <br>includes:-EX-showroom price=32 lakh <br>taxes and duties=6lakh <br> on road tax= 2 lakh <br>"insuarance proce is not included" </p>
+                        </div>
+                        </div>
+
+<!-- COL-6 IS FOR SUV CARS -->
+<h3 class="title">suv model of cars:-</h3> 
+<div class="row">
+                        <div class="col-6">
+                            
+                            <img src="range.jpg"  >
+                            <a href="" class="btn"> BUY NOW </a>
+                            <h4>RANE ROVER (RODROLLLER)</h4>
+                            <p> price-:1 CRORE <br>includes:-EX-showroom price=80 lakh <br>taxes and duties=15 lakh <br> on road tax= 5 lakh <br>"insuarance proce is not included" </p>
+                        </div>
+                        <div class="col-6">
+                            <img src="suv bmw.jpg"  >
+                            <a href="" class="btn"> BUY NOW </a>
+                            <h4>BMW CLASSIC</h4>
+                            <p> price-:80 lakh <br>includes:-EX-showroom price=65 lakh <br>taxes and duties=10 lakh <br> on road tax= 5 lakh <br>"insuarance proce is not included" </p>
+                        </div>
+                        <div class="col-6">
+                            <img src="volvosuv.jpg"  >
+                            <a href="" class="btn"> BUY NOW </a>
+                            <h4>VOLVO ZERATOR</h4>
+                            <p> price-:40 lakh <br>includes:-EX-showroom price=32 lakh <br>taxes and duties=6lakh <br> on road tax= 2 lakh <br>"insuarance proce is not included" </p>
+                        </div>
+                        </div>
+                        
+            
+        </div>
+    </div>
+
+
+
+
+    <!-- most demanded product -->
+    <div class="offer">
+        <div class="small-containers">
+            <div class="row">
+                <div class="col-7">
+                    <img src="suv"  class="offer-img">
+
+                </div>
+                <div class="col-7">
+                    <p>most demanded car </p>
+                    <h1>limited edition RANGE ROVER HOVER</h1>
+                    <small>available on our site with special insurance police and worthful experience of your road journey</small>
+                    <a href="" class="btn">BUY NOW </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- testimonial  -->
+
+    <div class="testimonial">
+        <h1 class="title">REVIEWS:-</h1> 
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    
+                    <p>"this  is the website where you can get all the 
+                        information about cars, and genuine also ,so 
+                        i highly recommend this website for everyone 
+                        ,who is willing to buy the car"</p>
+                        <img src="1000px.jpg">
+                        <h3>the rock</h3>
+                </div>
+                <div class="col-4">
+                    
+                    <p>"this  is the website where you can get all the 
+                        information about cars, and genuine also ,so 
+                        i highly recommend this website for everyone 
+                        ,who is willing to buy the car"</p>
+                        <img src="rock.jpg">
+                        <h3>the rock</h3>
+                </div>
+                <div class="col-4">
+                    
+                    <p>"this  is the website where you can get all the 
+                        information about cars, and genuine also ,so 
+                        i highly recommend this website for everyone 
+                        ,who is willing to buy the car"</p>
+                        <img src="rock.jpg">
+                        <h3>the rock</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- brands widdgets -->
+    <div class="brands">
+        <div class="small-containers">
+            <div class="row">
+                
+                <div class="col-8">
+                    <img src="tata.png" alt="">
+                </div>
+                <div class="col-8">
+                    <img src="tata.png" alt="">
+                </div>
+                <div class="col-8">
+                    <img src="bmw.webp" alt="">
+                </div>
+                <div class="col-8">
+                    <img src="Bentley-Logo.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="containers">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>download our android and ios app</p>
+                    <div class="applogo">
+                        <img src="play store.png" alt="">
+                        <img src="appstore.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo.png" alt="">
+                    <p>our purpose is to provide ,best information and details about the features of car so that nobody have to face issue while buyong or selling a car</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>follow us </h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> copyright 2022</p>
+        </div>
+    </div>
+
+
+    <!-- script for tooge menu     -->
+    <script>
+        var menuitems=document.getElementById(menuitems);
+        menuitems.style.maxHeight="0px;"
+        function menutoggle (){
+            if(menuitems.style.height="0px")
+            {
+                menuitems.style.height="200px"
+            }
+            else
+            {
+                menuitems.style.height="0px"
+            }
+        }
+
+
+    </script>
+</body>
+</html>
